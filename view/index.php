@@ -7,7 +7,7 @@
     <p>So, wishing to make this dream come true I enrolled into a course. This helped me gain some wider knowledge on how the industry works. This turned out to be an overwhelming, and pretty expensive, experience. Anyway, it gave me a good foundation for what followed.</p>
     <p>Took part in an apprenticeship programme. Created an application from scratch. Used an MVC framework, a lot of PHP and MySQL. Improved on my HTML and CSS skills.</p>
   </section>
-
+  
   <section id="timeline" class="pt-5 pb-2 mb-3 border-bottom text-center">
   <h3 class="text-center pb-4">TECHNOLOGIES</h3>
 <button class="accordion">FrontEnd</button>
@@ -221,17 +221,18 @@
 <div class="projects">
 
 	<div class="reveal">
-		<!-- <div class="heading color">
-      <h5>Electronic Diary</h5>
-    </div> -->
       <div class="project">
-    <a href="https://github.com/Jelena-Jess/e_diary" target="_blank">
-    
-      <img class="" src="inc/img/diary_big.png" alt="">
+          <img class="image" src="inc/img/diary_big.png" alt="">
+          <div class="overlay">
+          <div class="text">
+          <div class="project-title">Electronic diary for schools</div>
+          <div class="mt-4"><a href="https://github.com/Jelena-Jess/e_diary" target="_blank" class="proposal-small">Eager to find out more?</a></div>
+          </div>
+      </div>
       <!-- <img class="narrow" src="inc/img/diary_small.png" alt=""> -->
     </div>
     
-  </a>
+ 
     <!-- <a href="#demo" class="btn btn-info" data-toggle="collapse">Simple collapsible</a>
   <div id="demo" class="collapse">
   <div>
@@ -250,10 +251,13 @@
       <h4>ChocoTale</h4>
     </div> -->
     <div class="project">
-    <a href="https://github.com/Jelena-Jess/Chocolate" target="_blank">	
-    
-      
-      <img class="" src="inc/img/choco_big.png" alt="">
+      <img class="image" src="inc/img/choco_big.png" alt="">
+      <div class="overlay">
+      <div class="text">
+      <div class="project-title">ChocoTale</div>
+            <div class="mt-4"><a href="https://github.com/Jelena-Jess/Chocolate" target="_blank" class="proposal-small">Yum, check this out!</a></div>
+      </div>
+    </div>
       <!-- <img class="narrow" src="inc/img/choco_small.png" alt=""> -->
     </div>
     <!-- <div>
@@ -263,7 +267,7 @@
       <li>Languages used: HTML, CSS, PHP.</li>
       </ul>
     </div> -->
-    </div></a>
+    </div>
   
     
 	
@@ -275,7 +279,14 @@
     <!-- <div class=""> -->
      
     <div class="project">
-      <img class="" src="inc/img/wp_big.png" alt="">
+      <img class="image" src="inc/img/wp_big.png" alt="">
+      <div class="overlay">
+    <div class="text">
+      <div class="project-title">Sonya's Kitchen</div>
+            <div class="mt-4"><a href="" target="_blank" class="proposal-small">In the mood for some healthy snacks?</a></div>
+      </div>  
+    </div>
+  </div>
       <!-- <img class="narrow" src="inc/img/wp_small.png" alt=""> -->
     </div>
     <!-- <div>
@@ -284,7 +295,6 @@
     </ul>
     </div> -->
   <!-- </div> -->
-</div>
 </div>
  </section>
   
