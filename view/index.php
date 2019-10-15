@@ -220,8 +220,7 @@
                  if: click, on: .heading, do: $toggleClass open, to: $parent target;"> -->
 <div class="projects">
 
-	<div class="reveal">
-      <div class="project">
+	<div class="reveal project">
           <img class="image" src="inc/img/diary_big.png" alt="">
           <div class="overlay">
           <div class="text">
@@ -230,7 +229,7 @@
           </div>
       </div>
       <!-- <img class="narrow" src="inc/img/diary_small.png" alt=""> -->
-    </div>
+  
     
  
     <!-- <a href="#demo" class="btn btn-info" data-toggle="collapse">Simple collapsible</a>
@@ -246,11 +245,10 @@
 
   </div>
 	
-	<div class="reveal">
+	<div class="reveal project">
 		<!-- <div class="heading color">
       <h4>ChocoTale</h4>
     </div> -->
-    <div class="project">
       <img class="image" src="inc/img/choco_big.png" alt="">
       <div class="overlay">
       <div class="text">
@@ -259,7 +257,7 @@
       </div>
     </div>
       <!-- <img class="narrow" src="inc/img/choco_small.png" alt=""> -->
-    </div>
+    
     <!-- <div>
       <ul class="project_desc">
       <li>An application I have done as my final task on the IT course I attended.</li>
@@ -271,31 +269,31 @@
   
     
 	
-	<div class="reveal">
+	<div class="reveal project">
 		<!-- <div class="heading color">
       <h4>WordPress</h4>
       <i class="fa fa-chevron-circle-down"></i>
     </div> -->
     <!-- <div class=""> -->
      
-    <div class="project">
+   
       <img class="image" src="inc/img/wp_big.png" alt="">
       <div class="overlay">
-    <div class="text">
+      <div class="text">
       <div class="project-title">Sonya's Kitchen</div>
             <div class="mt-4"><a href="" target="_blank" class="proposal-small">In the mood for some healthy snacks?</a></div>
       </div>  
     </div>
   </div>
       <!-- <img class="narrow" src="inc/img/wp_small.png" alt=""> -->
-    </div>
+    
     <!-- <div>
       <ul class="project_desc">
       <li>A simple WordPress website I have done as part of my IT course. It is a website filled with gluten-free recipes.</li>
     </ul>
     </div> -->
   <!-- </div> -->
-</div>
+
  </section>
   
   <section class="pt-5 mb-3 border-bottom text-center">

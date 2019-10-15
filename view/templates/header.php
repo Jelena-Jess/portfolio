@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-     <base href="/portfolio/" />
+     <base href="/port/portfolio/" />
 
     <title>JelenaPetkov</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"

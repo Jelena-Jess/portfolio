@@ -422,12 +422,6 @@ a:hover {
 img {
   width: 100%;
   height: auto;
-  opacity: 1;
-  transition: all 0.3s ease-in-out;
-}
-.project img:hover {
-  transition: all 0.3s ease-in-out;
-  opacity: 0;
 }
 .wide {
   width: 70%;
@@ -442,8 +436,46 @@ img {
   align-content: space-between;
 }
 .project {
-  width: 100%;
+  position: relative;
+  width: 45%;
   margin-bottom: 50px;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #355C7D;
+}
+
+.project:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.project-title {
+  font-size: 25px;
 }
 
 
@@ -481,47 +513,7 @@ img {
   color: #fff;
 }
 
-.project {
-  position: relative;
-  width: 50%;
-}
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #355C7D;
-}
-
-.project:hover .overlay {
-  opacity: 0.9;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.project-title {
-  font-size: 25px;
-}
 
 @media screen and (min-width:993px) and (max-width:1200px){
   .inbox {width: 75%;}
