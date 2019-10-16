@@ -5,25 +5,25 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="far fa-window-close fa-sm"></i></a>
    
         <li class="nav-item">
-            <a class="nav-link" href="#bio">
+            <a class="nav-link hvr-forward" href="#bio">
             <span><i class="fas fa-fingerprint sidebar-icon"></i></span>
             Jessie who?
             </a>
         </li>
-        <li class="nav-item hvr-underline-from-center">
-            <a class="nav-link" href="#skills">
+        <li class="nav-item hvr-glow">
+            <a class="nav-link hvr-forward" href="#skills">
             <span><i class="fas fa-brain"></i></span>
             What I know
             </a>
         </li>
             <li class="nav-item">
-            <a class="nav-link" href="#projects">
+            <a class="nav-link hvr-forward" href="#projects">
                 <span><i class="fas fa-cut"></i></span>
             What I made
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#help">
+            <a class="nav-link hvr-forward" href="#help">
                 <span><i class="fas fa-hands-helping"></i></span>
             Need me?
             </a>

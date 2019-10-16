@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="inc/css/bootstrap.min.css">
     <link rel="stylesheet" href="inc/css/style.css">
     <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css">
+    <link href="css/hover-min.css" rel="stylesheet">
     <script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 </head>
@@ -45,26 +46,26 @@
   <div class="d-flex justify-content-center" id="navbarSupportedContent-333">
     <ul class="nav navbar-nav d-flex bd-highlight mb-7">
       <li class="px-2 nav-item bd-highlight nav">
-        <a class="nav-link" href="#bio">JESSIE WHO?
+        <a class="nav-link hvr-underline-from-center" href="#bio">JESSIE WHO?
         </a>
       </li>
       <li class="px-2 nav-item bd-highlight nav">
-        <a class="nav-link" href="#skills">WHAT I KNOW</a>
+        <a class="nav-link hvr-underline-from-center" href="#skills">WHAT I KNOW</a>
       </li>
       <li class="px-2 nav-item bd-highlight nav">
-        <a class="nav-link" href="#projects">WHAT I MADE</a>
+        <a class="nav-link hvr-underline-from-center" href="#projects">WHAT I MADE</a>
       </li>
       <li class="dropdown mydropdowncss px-2 nav-item bd-highlight nav">
         <a class="nav-link" href="#help">HOW I CAN HELP YOU
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item nav-link-small" href="Jessie/website">WEBSITE DESIGN</a>
-          <a class="dropdown-item nav-link-small" href="Jessie/logo">LOGO DESIGN</a>
-          <a class="dropdown-item nav-link-small" href="Jessie/wordpress">WORDPRESS</a>
-          <a class="dropdown-item nav-link-small" href="Jessie/content">CONTENT WRITING</a>
+          <a class="dropdown-item nav-link-small hvr-underline-from-center" href="Jessie/website">WEBSITE DESIGN</a>
+          <a class="dropdown-item nav-link-small hvr-underline-from-center" href="Jessie/logo">LOGO DESIGN</a>
+          <a class="dropdown-item nav-link-small hvr-underline-from-center" href="Jessie/wordpress">WORDPRESS</a>
+          <a class="dropdown-item nav-link-small hvr-underline-from-center" href="Jessie/content">CONTENT WRITING</a>
         </div>
       </li>
-      <li class="px-2 nav-item bd-highlight nav">
+      <li class="px-2 nav-item bd-highlight nav hvr-underline-from-center">
         <a class="nav-link" href="">CONTACT</a>
       </li>
     </ul>

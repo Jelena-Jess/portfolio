@@ -10,7 +10,7 @@
   
   <section id="timeline" class="pt-5 pb-2 mb-3 border-bottom text-center">
   <h3 class="text-center pb-4">TECHNOLOGIES</h3>
-<button class="accordion">FrontEnd</button>
+<button class="accordion hvr-sweep-to-bottom">FrontEnd</button>
 <div class="panel">
 <ul>
     <li class="reveal pt-3">
@@ -54,7 +54,7 @@
   </ul>
 </div> -->
 
-<button class="accordion">BackEnd</button>
+<button class="accordion hvr-sweep-to-bottom">BackEnd</button>
 <div class="panel">
  <ul>
  <li class="reveal pt-3">
@@ -71,7 +71,7 @@
  </ul>
 </div>
 
-<button class="accordion">Database</button>
+<button class="accordion hvr-sweep-to-bottom">Database</button>
 <div class="panel">
  <ul>
  <li class="reveal pt-3">
@@ -88,7 +88,7 @@
  </ul>
 </div>
 
-<button class="accordion acc_last">Other Technologies</button>
+<button class="accordion hvr-sweep-to-bottom acc_last">Other Technologies</button>
 <div class="panel">
  <ul>
  <li class="reveal pt-3">
@@ -222,7 +222,7 @@
 
 	<div class="reveal project">
           <img class="image" src="inc/img/diary_big.png" alt="">
-          <div class="overlay">
+          <div class="overlay hvr-curl-top-right">
           <div class="text">
           <div class="project-title">Electronic diary for schools</div>
           <div class="mt-4"><a href="https://github.com/Jelena-Jess/e_diary" target="_blank" class="proposal-small">Eager to find out more?</a></div>
@@ -250,7 +250,7 @@
       <h4>ChocoTale</h4>
     </div> -->
       <img class="image" src="inc/img/choco_big.png" alt="">
-      <div class="overlay">
+      <div class="overlay hvr-curl-top-right">
       <div class="text">
       <div class="project-title">ChocoTale</div>
             <div class="mt-4"><a href="https://github.com/Jelena-Jess/Chocolate" target="_blank" class="proposal-small">Yum, check this out!</a></div>
@@ -278,7 +278,7 @@
      
    
       <img class="image" src="inc/img/wp_big.png" alt="">
-      <div class="overlay">
+      <div class="overlay hvr-curl-top-right">
       <div class="text">
       <div class="project-title">Sonya's Kitchen</div>
             <div class="mt-4"><a href="" target="_blank" class="proposal-small">In the mood for some healthy snacks?</a></div>
