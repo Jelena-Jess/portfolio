@@ -28,4 +28,13 @@ class JessieController extends Controller {
   function privacy() {
     $this->loadView("privacy");
   }
+  function project1() {
+    $this->loadView("project1");
+  }
+  function project2() {
+    $this->loadView("project2");
+  }
+  function project3() {
+    $this->loadView("project3");
+  }
 }

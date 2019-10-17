@@ -39,21 +39,6 @@
   </ul>
 </div>
 
-<!-- <button class="accordion">JavaScript</button>
-<div class="panel">
-  <ul>
-    <li class="reveal">
-    <div class="skill">
-    <h3 class="skills">JavaScript</h3>
-    <ul class="list">
-      <li>Basic concepts</li>
-      <li>AMCharts</li>
-    </ul>
-    </div>
-    </li>
-  </ul>
-</div> -->
-
 <button class="accordion hvr-sweep-to-bottom">BackEnd</button>
 <div class="panel">
  <ul>
@@ -88,10 +73,10 @@
  </ul>
 </div>
 
-<button class="accordion hvr-sweep-to-bottom acc_last">Other Technologies</button>
+<button class="accordion hvr-sweep-to-bottom acc_last mb-4">Other Technologies</button>
 <div class="panel">
  <ul>
- <li class="reveal pt-3">
+ <li class="reveal">
     <div class="skill border-bottom pb-4">
     <h3 class="skills">Linux and Apache Server</h3>
     <ul class="list">
@@ -119,105 +104,11 @@
     </li>
  </ul>
 </div>
-
-<!-- <button class="accordion">Section 3</button>
-<div class="panel">
- <ul>
- <li class="reveal">
-    <div class="skill">
-    <h3 class="skills">Other Skills</h3>
-    <ul class="list">
-      <li>Git</li>
-      <li>Sourcetree</li>
-      <li>Bootstrap</li>
-      <li>Content writing</li>
-    </ul>
-    </div>
-    </li>
- </ul>
-</div> -->
-    <!-- <h3><a id="skills">TECHNOLOGIES</a></h3>
-    <ul>
-    <li class="reveal">
-    <div class="skill">
-      <h3 class="skills">HTML & CSS</h3>
-      <ul class="list">
-        <li>Style Architecture</li>
-        <li>Positioning of elements with Flexbox</li>
-        <li>Responsive Web Design</li>
-        <li>Transforms</li>
-        <li>Transitions and Animations</li>
-      </ul>
-    </div>
-  </li> -->
     
-    <!-- <li class="reveal">
-    <div class="skill">
-    <h3 class="skills">JavaScript</h3>
-    <ul class="list">
-      <li>Basic concepts</li>
-      <li>AMCharts</li>
-    </ul>
-    </div>
-    </li> -->
-
-    <!-- <li class="reveal">
-    <div class="skill">
-      <h3 class="skills">PHP</h3>
-      <ul class="list">
-        <li>Understanding of MVC architecture</li>
-        <li>Aspiring towards clean code writing</li>
-        <li>Object-Oriented Programming</li>
-        <li>Regular expressions</li>
-      </ul>
-    </div>
-    </li> -->
-
-    <!-- <li class="reveal">
-    <div class="skill">
-    <h3 class="skills">MySQL</h3>
-    <ul class="list">
-      <li>DDL and DML</li>
-      <li>Writing complex queries</li>
-      <li>Transactions</li>
-      <li>Triggers and Stored procedures</li>
-    </ul>
-    </div>
-    </li> -->
-
-    <!-- <li class="reveal">
-    <div class="skill">
-    <h3 class="skills">Linux and Apache Server</h3>
-    <ul class="list">
-      <li>Installing Apache and PHP on Linux</li>
-      <li>MySQL secure installation</li>
-      <li>Creating .htaccess file</li>
-      <li>Understanding of php.ini file</li>
-      <li>Creating virtual hosts</li>
-      <li>Securing Web Servers</li>
-    </ul>
-    </div>
-    </li> -->
-
-    <!-- <li class="reveal">
-    <div class="skill">
-    <h3 class="skills">Other Skills</h3>
-    <ul class="list">
-      <li>Git</li>
-      <li>Sourcetree</li>
-      <li>Bootstrap</li>
-      <li>Content writing</li>
-    </ul>
-    </div>
-    </li>
-    </ul> -->
   </section>
 
   <section class="pt-5 pb-4 mb-3 border-bottom text-center">
   <h3 class="text-center pb-4"><a id="projects">WHAT I MADE</a></h3>
-  <!-- <div class="accordion" 
-     data-anijs="if: click, on: .heading, do: $removeClass open, to: .open;
-                 if: click, on: .heading, do: $toggleClass open, to: $parent target;"> -->
 <div class="projects">
 
 	<div class="reveal project">
@@ -225,7 +116,7 @@
           <div class="overlay hvr-curl-top-right">
           <div class="text">
           <div class="project-title">Electronic diary for schools</div>
-          <div class="mt-4"><a href="https://github.com/Jelena-Jess/e_diary" target="_blank" class="proposal-small">Eager to find out more?</a></div>
+          <div class="mt-4"><a href="Jessie/project1" class="proposal-small">Eager to find out more?</a></div>
           </div>
       </div>
       <!-- <img class="narrow" src="inc/img/diary_small.png" alt=""> -->
@@ -246,14 +137,11 @@
   </div>
 	
 	<div class="reveal project">
-		<!-- <div class="heading color">
-      <h4>ChocoTale</h4>
-    </div> -->
       <img class="image" src="inc/img/choco_big.png" alt="">
       <div class="overlay hvr-curl-top-right">
       <div class="text">
       <div class="project-title">ChocoTale</div>
-            <div class="mt-4"><a href="https://github.com/Jelena-Jess/Chocolate" target="_blank" class="proposal-small">Yum, check this out!</a></div>
+            <div class="mt-4"><a href="Jessie/project2" class="proposal-small">Yum, check this out!</a></div>
       </div>
     </div>
       <!-- <img class="narrow" src="inc/img/choco_small.png" alt=""> -->
@@ -270,18 +158,13 @@
     
 	
 	<div class="reveal project">
-		<!-- <div class="heading color">
-      <h4>WordPress</h4>
-      <i class="fa fa-chevron-circle-down"></i>
-    </div> -->
-    <!-- <div class=""> -->
      
    
       <img class="image" src="inc/img/wp_big.png" alt="">
       <div class="overlay hvr-curl-top-right">
       <div class="text">
       <div class="project-title">Sonya's Kitchen</div>
-            <div class="mt-4"><a href="" target="_blank" class="proposal-small">In the mood for some healthy snacks?</a></div>
+            <div class="mt-4"><a href="Jessie/project1" class="proposal-small">In the mood for some healthy snacks?</a></div>
       </div>  
     </div>
   </div>

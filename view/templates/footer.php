@@ -1,4 +1,4 @@
-<footer class="mt-5 footer pb-4">
+<footer class="mt-4 footer pb-4">
     <div class="text-center">
         <div class="footer-upper">
             <img class="" src="inc/img/foot.jpg" alt="">
