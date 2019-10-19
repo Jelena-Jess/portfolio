@@ -10,11 +10,11 @@
   
   <section id="timeline" class="pt-5 pb-2 mb-3 border-bottom text-center">
   <h3 class="text-center pb-4">TECHNOLOGIES</h3>
-<button class="accordion hvr-sweep-to-bottom">FrontEnd</button>
+<button class="accordion hvr-sweep-to-right">FrontEnd</button>
 <div class="panel">
 <ul>
     <li class="reveal pt-3">
-    <div class="skill border-bottom pb-4">
+    <div class="skill border-bottom pb-3">
       <h3 class="skills">HTML & CSS</h3>
       <ul class="list">
         <li>Style Architecture</li>
@@ -27,7 +27,7 @@
   </li> 
 </ul>
 <ul>
-    <li class="reveal pt-0">
+    <li class="reveal pt-2">
     <div class="skill pb-2">
     <h3 class="skills">JavaScript</h3>
     <ul class="list">
@@ -39,7 +39,7 @@
   </ul>
 </div>
 
-<button class="accordion hvr-sweep-to-bottom">BackEnd</button>
+<button class="accordion hvr-sweep-to-right">BackEnd</button>
 <div class="panel">
  <ul>
  <li class="reveal pt-3">
@@ -56,7 +56,7 @@
  </ul>
 </div>
 
-<button class="accordion hvr-sweep-to-bottom">Database</button>
+<button class="accordion hvr-sweep-to-right">Database</button>
 <div class="panel">
  <ul>
  <li class="reveal pt-3">
@@ -73,11 +73,11 @@
  </ul>
 </div>
 
-<button class="accordion hvr-sweep-to-bottom acc_last mb-4">Other Technologies</button>
+<button class="accordion hvr-sweep-to-right acc_last mb-4">Other Technologies</button>
 <div class="panel">
  <ul>
- <li class="reveal">
-    <div class="skill border-bottom pb-4">
+ <li class="reveal pt-3">
+    <div class="skill border-bottom pb-3">
     <h3 class="skills">Linux and Apache Server</h3>
     <ul class="list">
       <li>Installing Apache and PHP on Linux</li>
@@ -91,7 +91,7 @@
     </li>
  </ul>
  <ul>
- <li class="reveal pt-0">
+ <li class="reveal pt-2">
     <div class="skill">
     <h3 class="skills">Other Skills</h3>
     <ul class="list">
@@ -109,16 +109,16 @@
 
   <section class="pt-5 pb-4 mb-3 border-bottom text-center">
   <h3 class="text-center pb-4"><a id="projects">WHAT I MADE</a></h3>
-<div class="projects">
+  <div class="projects">
 
-	<div class="reveal project">
-          <img class="image" src="inc/img/diary_big.png" alt="">
-          <div class="overlay hvr-curl-top-right">
-          <div class="text">
-          <div class="project-title">Electronic diary for schools</div>
-          <div class="mt-4"><a href="Jessie/project1" class="proposal-small">Eager to find out more?</a></div>
-          </div>
-      </div>
+	  <div class="reveal project">
+        <img class="image" src="inc/img/diary_big.png" alt="">
+        <div class="overlay hvr-curl-top-right">
+        <div class="text">
+        <div class="project-title">Electronic diary for schools</div>
+        <div class="mt-4"><a href="Jessie/project1" class="proposal-small">Eager to find out more?</a></div>
+     </div>
+    </div>
       <!-- <img class="narrow" src="inc/img/diary_small.png" alt=""> -->
   
     
@@ -157,7 +157,7 @@
   
     
 	
-	<div class="reveal project">
+	<div class="reveal project m-auto">
      
    
       <img class="image" src="inc/img/wp_big.png" alt="">
