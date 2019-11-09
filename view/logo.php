@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container mt-4">
 <main role="main" class="m-auto px-5 main">
 
-  <section class="pt-5 pb-2 mb-3 border-bottom text-justify">
+<section class="pt-5 pb-4 mb-1 text-justify">
   <h3 class="text-center pb-4">Logo — Your Personal Stamp</h3>
    
    <p>The power of a good logo is amazing. It reflects a company’s personality, values and creativity through a combination of the best shapes, colours and font. Our goal is to design a professional yet creative logo that reflects your company’s spirit and leaves a lasting, memorable effect.</p>

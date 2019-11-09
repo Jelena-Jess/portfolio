@@ -26,6 +26,7 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 3px 5px rgba(254, 67, 101, 0.3);
 }
 .section_all {
   width: 100%;
@@ -35,6 +36,7 @@ html, body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 3px 5px rgba(254, 67, 101, 0.3);
 }
 .title {
   font-size: 3rem;

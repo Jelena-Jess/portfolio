@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container mt-4">
 <main role="main" class="m-auto px-5 main">
 
-  <section class="pb-2 mb-3 border-bottom text-justify">
+<section class="pt-5 pb-4 mb-1 text-justify">
     <h3 class="text-center pb-4">WordPress CMS (Content Management System)</h3>
     
 <p>WordPress CMS adds a user-friendly administrative area to your website allowing you to easily login and update the content of your website at any time. You can effortlessly make textual, graphic or structural changes to the website in an instant without having to deal with or look at any of the complicated programming code. You will have full control over your website’s content.</p>

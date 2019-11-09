@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container mt-4">
 <main role="main" class="m-auto px-5 main">
 
-<section class="pt-5 pb-2 mb-3 border-bottom text-justify">
+<section class="pt-5 pb-4 mb-1 text-justify">
 
   <h3 class="text-center pb-4">Website Design — Your Picture Perfect</h3>
   <p> Simplicity is one of the golden rules of website design. The audience should have an enjoyable, positive experience when using your website. Whether their objective is reading content, watching a video or enrolling in a course, every action should be clear and concise throughout the website. Our approach is to create a website that strengthens your company’s brand while ensuring ease of use and simplicity for your audience.</p>
@@ -12,8 +12,10 @@
 
   <p>All of the websites that we create have been tailor-made and coded from scratch.</p>
 
+  <div class="mb-5"><a class="promo" href="Jessie/project_plan">Click here and tell us about your dream website.</a></div>
+
 </section>
 
-<div><a class="promo" href="Jessie/project_plan">Click here and tell us about your dream website.</a></div>
+
 </main>
 </div>

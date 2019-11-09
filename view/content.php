@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container mt-4">
 <main role="main" class="m-auto px-5 main">
 
-  <section class="pb-2 mb-3 border-bottom text-justify">
+<section class="pt-5 pb-4 mb-1 text-justify">
     <h3 class="text-center pb-4"> Content Writing</h3>
    
 <p>You can also receive professional content writing for all of your website’s text should you require a copywriter. Professional copywriting goes hand in hand with your website’s SEO (search engine optimisation). It enables Google to more readily find your website when potential customers search for your products or services. Our in-house copywriter in Novi Sad has written the content for many of the projects contained within our portfolio section. These clients are highly satisfied, as their pages often appear in the top three positions for Google searches, leading to a flood of traffic to their websites.</p>
