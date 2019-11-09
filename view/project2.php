@@ -3,8 +3,8 @@
 <div class="row">
 <section class="col-lg-8 col-sm-12 pb-2 my-3 border-bottom text-justify">
   <h3>Project Brief</h3>
-    <p>An application I have done as my final task on the IT course I attended.</p>
-    <p>It is a website for chocolate lovers where they can find facts about chocolate, and yummy recipes. There are two users: an ordinary user must register in order to see the content; an administrator adds and removes categories and recipes, and also adds or removes comments.</p>
+    <p>A website for chocolate lovers where they can find facts about chocolate, and yummy recipes. There are two users: an ordinary user must register in order to see the content and leave comments; an administrator adds and removes categories and recipes, and also adds or removes comments.</p>
+    <p>This website is made from scratch, with no libraries whatsoever.</p>
 
     <div class="project-page-img pt-4">
       <img class="wide mb-5" src="inc/img/choco_big.png" alt="">
@@ -23,10 +23,17 @@
     </div> 
     <div class="col-lg-12 col-sm-6">
       <h3>Project code</h3>
-      <p class="pl-4">GitHub<a href="https://github.com/Jelena-Jess"><i class="fab fa-github-square px-2"></i></a></p>
+      <p class="pl-4">GitHub<a href="https://github.com/Jelena-Jess/Chocolate"><i class="fab fa-github-square px-2"></i></a></p>
     </div>
   </div>
 </section>
 </div>
+<section class="row"> 
+  <div class="col-lg-8 col-sm-12 pb-3">
+    <h6 class="nav-link float-left"><i class="fas fa-angle-left"></i><a class="nav-page" href="Jessie/project1">Electronic diary for schools</a></h6>
+    <h6 class="nav-link float-right"><a class="nav-page" href="Jessie/project3">Sonya's Kitchen</a><i class="fas fa-angle-right"></i></h6>
+  </div>
+</section>
+
 </main>
 </div>

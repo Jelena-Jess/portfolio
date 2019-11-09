@@ -3,8 +3,7 @@
 <div class="row">
 <section class="col-lg-8 col-sm-12 pb-2 my-3 border-bottom text-justify">
   <h3>Project Brief</h3>
-    <p>An MVC project I have worked on as part of an internship program in Softmetrix, Belgrade, Serbia.</p>
-    <p>The aim was to create an electronic diary for primary schools. There are four users (administrator, headmaster, teacher and parent). Each user has their own interface and features they can use</p>
+    <p>The aim was to create an electronic diary for primary schools. There are four users (administrator, headmaster, teacher and parent). Each user has their own interface and features they can use.</p>
 
   <div class="project-page-img pt-4">
       <img class="wide mb-5" src="inc/img/diary_big.png" alt="">
@@ -25,15 +24,12 @@
         <li>Bootstrap</li>
       </ul>
     </div> 
-
-    <div class="col-lg-12 col-sm-6">
-      <h3>Project code</h3>
-      <p class="pl-4">GitHub<a href="https://github.com/Jelena-Jess"><i class="fab fa-github-square px-2"></i></a></p>
-    </div>
-   </div>
- 
-  
 </section>
 </div>
+<section class="row"> 
+  <div class="col-lg-8 col-sm-12 pb-3">
+    <h6 class="nav-link float-right"><a class="nav-page" href="Jessie/project2">ChocoTale</a><i class="fas fa-angle-right"></i></h6>
+  </div>
+</section>
 </main>
 </div>

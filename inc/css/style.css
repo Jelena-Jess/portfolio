@@ -284,6 +284,12 @@ a:hover {
   background-color: #fff;
   color: #FE4365;
 }
+.nav-page{
+  color: #355C7D;
+}
+.nav-page:hover{
+  color: #FE4365;
+}
 .fa {
   color: #fff;
 }
