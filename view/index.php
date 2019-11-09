@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container mt-4">
 <main role="main" class="m-auto px-5 main">
 
   <section class="pt-5 pb-2 mb-3 border-bottom text-justify">
@@ -142,7 +142,7 @@
   </div>
  </section>
   
-  <section class="pt-5 mb-3 border-bottom text-center">
+  <section class="pt-5 pb-3 mb-2 text-center">
   <h3 class="text-center pb-4"><a id="help">HOW WE CAN HELP YOU</a></h3>
   <div class="help">
     <a href="Jessie/website"><div data-anijs="if: mouseover, do: swing animated">Website Design</div></a>

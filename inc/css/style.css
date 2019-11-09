@@ -117,6 +117,14 @@ a:hover {
   text-decoration: none;
   color: #FE4365;
 }
+.fab {
+  color: #FE4365;
+  font-size: 25px;
+}
+.fab:hover {
+  color: #355C7D;
+  font-size: 25px;
+}
 
 .btn {
   border-radius:5px;
@@ -823,6 +831,9 @@ img {
     font-size: 18px;
     padding: 8px 20px 8px 10px;
   }
+  .sidebar .closebtn {
+    right: 45.5%;
+  }
   .main {padding-top: 0px !important;}
   .inbox {width: 75%;}
   .img {
@@ -880,6 +891,9 @@ img {
   }
   .sidebar {padding-top: 10px;}
   .sidebar a {font-size: 18px;}
+  .sidebar .closebtn {
+    right: 44%;
+  }
   .main {padding-top: 0px !important;}
   .inbox {width: 100%;}
 
@@ -960,6 +974,9 @@ img {
   }
   .sidebar {padding-top: 10px;}
   .sidebar a {font-size: 18px;}
+  .sidebar .closebtn {
+    right: 40%;
+  }
   .main {padding-top: 0px !important;}
   .inbox {width: 100%;}
 
