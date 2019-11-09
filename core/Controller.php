@@ -5,10 +5,15 @@ abstract class Controller {
 		foreach ($params as $k=>$param) {
       $this->$k = $param;
     }
-    include_once "view/templates/header.php";
+    // if($view === "view/index.php"){
+    //   include_once "view/templates/header.php";
+    // }else{
+    //   include_once "view/templates/header_index.php";
+    // }
+    
     include_once "view/{$view}.php";
-    include_once "view/templates/sidebar.php";
-    include_once "view/templates/footer.php";
+    // include_once "view/templates/sidebar.php";
+    // include_once "view/templates/footer.php";
   }
 public function index() {
   echo "Podrazumevana strana";

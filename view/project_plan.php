@@ -227,14 +227,8 @@
 
 <div class="px-3 mx-3">
   <p>Please note that if you don't opt for the Security Set-Up your website is at risk of being attacked in the future. Setting up security features from the start keeps your website secure. </p>
-  <h6>Privacy</h6>
-  <p><small>By using this form you agree with the storage and handling of your data by this website. Please read our <a class="privacy-link" href="Jessie/privacy">Privacy Policy</a> for more information on how we handle your data.</small></p>
 
   <div class="form-check">
-    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-    <label class="form-check-label" for="defaultCheck1">
-    I agree
-    </label>
 </div>
 </div>
 

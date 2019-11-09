@@ -7,25 +7,14 @@
             <p class="text-light"><a href="Jessie/project_plan" class="proposal">YOUR PROPOSAL</a></p>
         </div>
     </div>
-	<div class="container text-center">
-        <div class="footer-links p-2">
-          <a href="">Home</a>
-          <a href="">Projects</a>
-          <a href="">Website Design</a>
-          <a href="">Logo Design</a>
-          <a href="">WordPress</a>
-          <a href="">Content Writing</a> 
-        </div>
-          <div class="footer-links">
-             <a href="https://www.linkedin.com/in/jelena-p-25813a10b/"><i class="fab fa-linkedin px-2"></i></a>
-          <a href="">Contact</a>  
-          <a href="https://github.com/Jelena-Jess"><i class="fab fa-github-square px-2"></i></a> 
-          </div>
-        <div>
-          <small>Copyright &copy; 2019 Jessie&Friday</small>
-        </div>
-        
+    <!-- <div class="footer-links">
+      <a href="https://www.linkedin.com/in/jelena-p-25813a10b/"><i class="fab fa-linkedin px-2"></i></a>  
+      <a href="https://github.com/Jelena-Jess"><i class="fab fa-github-square px-2"></i></a> 
+    </div> -->
+    <div class="pt-4">
+      <small>Copyright &copy; 2019 Jessie&Friday</small>
     </div>
+  </div>
 </footer>
 <div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

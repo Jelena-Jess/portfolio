@@ -1,5 +1,5 @@
 <?php
-define("APP_DIR","var/www/html/port/portfolio");
+define("APP_DIR","htdocs/portfolio/portfolio");
 
 function autoloadCore($class){
   require_once "core/{$class}.php";

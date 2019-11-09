@@ -27,10 +27,10 @@ $(document).ready(function() {
 
 $(window).scroll(function () { 
   console.log($(window).scrollTop())
-if ($(window).scrollTop() > 360) {
+if ($(window).scrollTop() > 850) {
   $('.navbar').addClass('navbar-fixed');
 }
-if ($(window).scrollTop() < 361) {
+if ($(window).scrollTop() < 851) {
   $('.navbar').removeClass('navbar-fixed');
 }
 });
@@ -76,8 +76,7 @@ for (i = 0; i < acc.length; i++) {
 
 //SIDEBAR
 function openNav() {
-  document.getElementById("mySidebar").style.width = "35%";
-  document.getElementById("main").style.marginLeft = "250px";
+  document.getElementById("mySidebar").style.width = "100%";
 }
 
 function closeNav() {

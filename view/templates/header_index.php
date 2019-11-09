@@ -37,7 +37,7 @@
   </div>
 </div>
 
-  <div class="section_all header-fix d-flex bd-highlight pt-5 pb-5">
+  <div class="section header-fix d-flex bd-highlight pt-5 pb-5">
 		<div class="m-auto pt-5 pb-5">
       <a href="Jessie/index"><h1 class="title text-center">Jessie&amp;Friday</h1></a>
       <h6 class="text-center">A COOL SIMPLE WEBSITE FOR YOU?</h6>
