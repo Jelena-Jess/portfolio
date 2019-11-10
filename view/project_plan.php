@@ -1,15 +1,15 @@
 <div class="container mt-4">
-<main role="main" class="m-auto px-5 main">
+<main role="main" class="m-auto p-5 main">
 
-  <section class="project_plan pt-5 pb-2 mb-3 border-bottom text-justify">
-    <h3 class="text-center pb-4">Let’s talk about your project</h3>
-<div class="project_intro">
+  <section class="project_plan pt-5 border-bottom text-justify">
+  <h3 class="text-center pb-4">Let’s talk about your project</h3>
+  <div class="project_intro">
   <p class="px-3 text-center">Fill out the fields important to you. After we examine your proposal, I will contact you to set up a time and discuss your project in further detail.</p>
   <p class="px-3 text-center">You should expect to hear from me in a few days.</p>
-</div>
+  </div>
 
 
-<div class="p-3 m-3">
+  <div class="p-3 m-3">
   <form action="" method="post">
   <h5 class="text-center m-3 mb-5">Basic information</h5>
     <div class="form-group">
@@ -227,9 +227,6 @@
 
 <div class="px-3 mx-3">
   <p>Please note that if you don't opt for the Security Set-Up your website is at risk of being attacked in the future. Setting up security features from the start keeps your website secure. </p>
-
-  <div class="form-check">
-</div>
 </div>
 
 <div class="p-3 m-3 text-center">
@@ -238,7 +235,7 @@
 
 </form>
 </div>
-
+</section>
 </main>
 </div>
 

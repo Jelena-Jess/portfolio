@@ -45,7 +45,6 @@ html, body {
   flex: 1;
   width: 100%;
   margin: auto;
-  padding-top: 50px;
   background-color: rgba(206, 227, 245, 0.2);
 }
 .footer{
@@ -346,13 +345,12 @@ a:hover {
   background-size: cover;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 0px;
+  padding: 0px !important;
 }
 
 .sidebar a {
   text-decoration: none;
   padding: 10px 0;
-  font-size: 30px;
   color: #fff;
   display: block;
   transition: 0.3s;
@@ -369,9 +367,16 @@ a:hover {
   font-size: 36px;
   z-index: 0;
   color: #FE4365;
+  padding: 0px !important;
 }
 .sidebar .closebtn:hover {
  color: #355C7D;
+}
+.sidebar .nav-link {
+ font-size: 15px;
+}
+.side-nav {
+  padding: 0 !important;
 }
 
 /******* SKILLS ********/
@@ -803,7 +808,7 @@ img {
 @media screen and (min-width:771px) and (max-width:992px){
   .sidebar {padding-top: 10px;}
   .sidebar a {font-size: 18px;}
-  .main {padding-top: 0px !important;}
+  /* .main {padding-top: 0px !important;} */
   .inbox {width: 75%;}
   
 .promo {
@@ -842,7 +847,9 @@ img {
   .sidebar .closebtn {
     right: 45.5%;
   }
-  .main {padding-top: 0px !important;}
+  .main {
+    padding: 10px !important;
+  }
   .inbox {width: 75%;}
   .img {
     flex-direction: column;
@@ -902,7 +909,10 @@ img {
   .sidebar .closebtn {
     right: 44%;
   }
-  .main {padding-top: 0px !important;}
+  .main {
+    padding: 10px !important;
+    margin: 0px !important;
+  }
   .inbox {width: 100%;}
 
   .skill {
@@ -985,7 +995,10 @@ img {
   .sidebar .closebtn {
     right: 40%;
   }
-  .main {padding-top: 0px !important;}
+  .main {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
   .inbox {width: 100%;}
 
   .skill {

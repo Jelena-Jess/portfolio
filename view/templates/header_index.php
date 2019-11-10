@@ -69,7 +69,7 @@
         </div>
       </li>
       <li class="px-2 nav-item bd-highlight nav hvr-underline-from-center">
-        <a class="nav-link" href="">CONTACT</a>
+        <a class="nav-link" href="Jessie/contact">CONTACT</a>
       </li>
     </ul>
     </div>

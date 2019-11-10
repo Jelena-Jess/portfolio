@@ -10,7 +10,7 @@
             JESSIE&FRIDAY
             </a>
         </li>
-        <li class="nav-item hvr-glow">
+        <li class="nav-item">
             <a class="nav-link" href="#skills">
             <span><i class="fas fa-brain"></i></span>
             TECHNOLOGIES
@@ -26,6 +26,12 @@
             <a class="nav-link" href="#help">
                 <span><i class="fas fa-hands-helping"></i></span>
             SERVICES
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Jessie/contact">
+                <span><i class="fas fa-phone"></i></span>
+            CONTACT
             </a>
         </li>
     </ul>
