@@ -160,8 +160,9 @@ a:hover {
   border: 5px solid #fff;
 }
 .proposal-small:hover {
-  background-color: #FE4365;
-  color: #fff;
+  border: 5px solid rgb(228, 131, 149);
+  background-color: #fff;
+  color: #FE4365;
 }
 
 
@@ -416,10 +417,16 @@ a:hover {
 
 /******* ACCORDION ********/
 .accordion {
-  background-color: #355C7D;
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #355C7D 0%, rgb(102, 153, 197)  10%, rgba(228, 131, 149, 0.5) 100%, rgb(228, 131, 149) 95%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover,
+  #355C7D, rgb(228, 131, 149));
+  background-image: radial-gradient(45px 45px 45deg, circle cover, 
+  #355C7D 0%, rgb(102, 153, 197)  10%, rgb(228, 131, 149) 100%, 
+  rgba(228, 131, 149) 95%);
+  background-color: rgb(228, 131, 149);
   color: #fff;
   cursor: pointer;
-  padding: 18px;
+  padding: 20px;
   width: 100%;
   border: none;
   text-align: center;
@@ -428,16 +435,17 @@ a:hover {
   transition: 0.4s;
   overflow: hidden;
   margin: auto;
-  border-bottom: 1px solid rgb(228, 131, 149);
+  border-bottom: 1px solid #FE4365;
   line-height: 20px;
   font-size: 17px;
+  border-radius: 5px;
 }
 .accordion:hover {
-  background-color: rgb(228, 131, 149);
   color: #fff;
+  font-weight: bold;
 }
 .acc_last {
-  border-bottom: 1px solid #355C7D;
+  border-bottom: 1px solid #FE4365;
 }
 
 .accordion:after {
@@ -450,7 +458,8 @@ a:hover {
 
 .active:after {
   content: "\2212";
-  color: #355C7D;
+  color: #fff;
+  font-weight: bold;
 }
 
 #timeline .panel,

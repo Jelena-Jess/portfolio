@@ -5,25 +5,25 @@
   <h3 class="text-center pb-4">Have a question?</h3>
 
   <div class="p-3 m-3">
-  <form action="" method="post">
+  <form action="<?php echo htmlspecialchars($_SERVER['REQUEST_URI']); ?>" name=”contact_form” method="post">
     <div class="form-group">
       <label for="" class="col-form-label">Name</label>
       <div class="">
-      <input name="title" type="text" class="form-control" placeholder="Required field" required>
+      <input name="name" type="text" class="form-control" placeholder="Required field" required>
       </div>
     </div>
 
     <div class="form-group">
       <label for="" class="col-form-label">Email</label>
       <div class="">
-      <input name="title" type="text" class="form-control" id="" placeholder="Required field" required>
+      <input name="email" type="text" class="form-control" id="" placeholder="Required field" required>
       </div>
     </div>
 
     <div class="form-group">
       <label for="" class="col-form-label">Phone number</label>
       <div class="">
-      <input name="title" type="text" class="form-control" id="" placeholder="">
+      <input name="phone" type="text" class="form-control" id="" placeholder="">
       </div>
     </div>
 
@@ -36,7 +36,7 @@
 
     </div>
     <div class="pb-3 mb-3 text-center">
-      <button type="submit" class="btn">Submit</button>
+      <button type="submit" class="btn" name="send_mail">Submit</button>
     </div>
 
 </form>

@@ -3,11 +3,16 @@
 <div class="row">
 <section class="col-12 py-5 text-justify">
     <h3 class="text-center pb-4"> Content Writing</h3>
-    <p>You can also receive professional content writing for all of your website’s text should you require a copywriter. Professional copywriting goes hand in hand with your website’s SEO (search engine optimisation). It enables Google to more readily find your website when potential customers search for your products or services. Our in-house copywriter in Novi Sad has written the content for many of the projects contained within our portfolio section. These clients are highly satisfied, as their pages often appear in the top three positions for Google searches, leading to a flood of traffic to their websites.</p>
-    <p>Our in-house copywriter in Belgrade also works remotely for clients across the globe. Please feel free to get in touch via email or over the phone to discuss your website. Content has been written for websites in Australia, Germany, Ireland, and the UK. So if you are in London, Belfast, Galway, Berlin or elsewhere, don’t hesitate to get in touch to opt for this service as well.</p>
-    <h3 class="text-center pb-4 pt-5">English Translations</h3>
-    <p>Our in-house copywriter is also a professional English translator and interpreter, fluent in English. With years of experience translating for clients from the IT and engineering sectors, a full translation of your website can be readily completed. Usage of professional translation software and resources ensures accurate, efficient and accountable translations.</p>
+    <p>Should you require a copywriter, we have professional copywriters working with us. Copywriting goes hand in hand with your website’s SEO (search engine optimisation), which enables Google to find your website when potential customers search for your products or services. Our in-house copywriters have written the content for many websites. Content has been written for websites in Australia, Germany, the USA and the UK. These clients are highly satisfied, as their pages often appear in the top three positions for Google searches, leading to a flood of traffic to their websites.</p>
+    <h3 class="text-center pb-4 pt-5">Translations</h3>
+    <p>Our in-house copywriters are also professional English and German translators and interpreters. Therefore, we can provide a full transalation of your website. Usage of professional translation software and resources ensures accurate and efficient translations.</p>
 </section>
 </div>
+<section class="row"> 
+  <div class="col-lg-8 col-sm-12 py-3 border-top">
+    <h6 class="nav-link float-left"><i class="fas fa-angle-left"></i><a class="nav-page" href="Jessie/wordpress">WordPress</a></h6>
+    <h6 class="nav-link float-right"><a class="nav-page" href="Jessie/website">Website Design</a><i class="fas fa-angle-right"></i></h6>
+  </div>
+</section>
 </main>
 </div>

@@ -1,7 +1,7 @@
 <?php
 
 abstract class Controller {
-  public function loadView($view, $params=array()) {
+  public function loadView($view, $data=[], $params=array()) {
 		foreach ($params as $k=>$param) {
       $this->$k = $param;
     }

@@ -1,5 +1,10 @@
 <?php
+
 class JessieController extends Controller {
+
+  public function __construct() {
+    $this->modelContact = $this->model('modelContact');
+  }
 
   function index() {
     $this->loadView("main");
@@ -32,7 +37,12 @@ class JessieController extends Controller {
     $this->loadView("project3");
   }
   function contact() {
-    $this->loadView("contact");
+    if(isset($_POST) && isset($_POST["send_mail"])){
+     $get = $this->modelContact->contact();
+      //ako je meil uspesno poslan onda (true) vratiti na contakt formu obavestenje o tome, ako forma nije dobra vratiti na formi sa prikazom greske. 
+    } else {
+    $this->loadView("contact");   //Ako ne postoji POST zahtev ucitaj ovo
+    }
   }
   
 }
