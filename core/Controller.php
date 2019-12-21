@@ -26,4 +26,12 @@ require_once 'model/' . $model . '.php';
 // Instantiate model
 return new $model();
 }
+
+// Load vendor
+// public function vend(){
+//   // Require model file
+//   require_once 'vendor/autoload.php';
+  
+//   }
+
 }

@@ -10,18 +10,20 @@ Prilagoditi kod potrebama  -->
 //   ->setPassword('your password')
 // ;
 
+//$transport = new Swift_SendmailTransport('/usr/sbin/sendmail -bs');
+
 // Create the Mailer using your created Transport
 //$mailer = new Swift_Mailer($transport);
 
 // Create a message
-// $message = (new Swift_Message('Wonderful Subject'))
+//  $message = (new Swift_Message('Wonderful Subject'))
 //   ->setFrom(['john@doe.com' => 'John Doe'])
-//   ->setTo(['receiver@domain.org', 'other@domain.org' => 'A name'])
+//   ->setTo(['petkovjelena@gmail.com', 'other@domain.org' => 'A name'])
 //   ->setBody('Here is the message itself')
 //   ;
 
 // Send the message
-// $result = $mailer->send($message);
+ //$result = $mailer->send($message);
 
 // if($result) {
 //   return true; 
@@ -32,11 +34,11 @@ Prilagoditi kod potrebama  -->
 class modelContact {
   public function contact() {
     $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
-    $msg = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_SPECIAL_CHARS);
     $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
     if($email === false) print "Submitted email address is invalid <br>";
     $phone = filter_input(INPUT_POST, 'phone', FILTER_VALIDATE_INT);
     if($phone === false) print "Submitted phone number is invalid <br>";
+    $msg = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_SPECIAL_CHARS);
     echo "Name: " . $name . "<br> Email: " . $email. "<br> Phone number: " . $phone . "<br> Message: " . $msg;
 
   }
