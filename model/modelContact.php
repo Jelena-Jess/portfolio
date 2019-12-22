@@ -1,6 +1,3 @@
-<!-- Zahtev koji stigne proveriti validnost podataka, ocistiti od mogucih scripti...  
-
-Prilagoditi kod potrebama  -->
 <?php
 
 use PHPMailer\PHPMailer\PHPMailer;
@@ -17,6 +14,9 @@ class modelContact {
     $phone = filter_input(INPUT_POST, 'phone', FILTER_VALIDATE_INT);
     if($phone === false) print "Submitted phone number is invalid <br>";
     $msg = filter_input(INPUT_POST, 'message', FILTER_SANITIZE_SPECIAL_CHARS);
+    $full_msg = "From: " . $name . "<br>
+                Phone number: " . $phone . "<br>
+                Message: " . $msg;
 
    
 
@@ -48,7 +48,7 @@ class modelContact {
         // Content
         $mail->isHTML(true);                                  // Set email format to HTML
         $mail->Subject = 'Contact';
-        $mail->Body    = $msg;
+        $mail->Body    = $full_msg;
 
         if($mail->send())
           $response = 'Message has been sent';

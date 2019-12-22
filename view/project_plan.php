@@ -15,19 +15,19 @@
     <div class="form-group">
       <label for="" class="col-form-label">Name</label>
       <div class="">
-      <input name="title" type="text" class="form-control" placeholder="Required field" required>
+      <input name="name" type="text" class="form-control" placeholder="Required field" required>
       </div>
     </div>
     <div class="form-group">
       <label for="" class="col-form-label">Email</label>
       <div class="">
-      <input name="title" type="text" class="form-control" id="" placeholder="Required field" required>
+      <input name="email" type="text" class="form-control" id="" placeholder="Required field" required>
       </div>
     </div>
     <div class="form-group">
       <label for="" class="col-form-label">Phone number</label>
       <div class="">
-      <input name="title" type="text" class="form-control" id="" placeholder="">
+      <input name="phone" type="text" class="form-control" id="" placeholder="">
       </div>
     </div>
     </div>
@@ -37,50 +37,50 @@
     <div class="form-group">
       <label for="" class="col-form-label">Company/Product name</label>
       <div class="">
-      <input name="title" type="text" class="form-control" id="" placeholder="" required>
+      <input name="company_name" type="text" class="form-control" id="" placeholder="">
       </div>
     </div>
       <div class="form-group">
       <label for="" class="col-form-label">Desired web address</label>
       <div class="">
-      <input name="title" type="text" class="form-control" id="" placeholder="" required>
+      <input name="web_address" type="text" class="form-control" id="" placeholder="">
       </div>
     </div>
       <div class="form-group">
       <label for="" class="col-form-label">Describe your company/product</label>
       <div class="">
-      <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+      <textarea name="description" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
       </div>
     </div>
     <div class="form-group">
       <label for="" class="col-form-label">What do you want to achieve with this website?</label>
       <div class="">
-      <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+      <textarea name="achieve" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
       </div>
     </div>
       
       <div class="form-group">
       <label for="" class="col-form-label">What are the long-term goals for the website?</label>
       <div class="">
-      <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+      <textarea name="goals" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
       </div>
     </div>
     <div class="form-group">
       <label for="" class="col-form-label">What are the aims and objectives of the project?</label>
       <div class="">
-      <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+      <textarea name="aims" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
       </div>
     </div>
       <div class="form-group">
       <label for="" class="col-form-label">Budget</label>
       <div class="">
-      <input name="title" type="text" class="form-control" id="" placeholder="" required>
+      <input name="budget" type="text" class="form-control" id="" placeholder="">
       </div>
     </div>
       <div class="form-group">
       <label for="" class="col-form-label">Deadline</label>
       <div class="">
-      <input name="title" type="text" class="form-control" id="" placeholder="" required>
+      <input name="deadline" type="text" class="form-control" id="" placeholder="">
       </div>
     </div>
     </div>
@@ -90,14 +90,14 @@
     <div class="form-group">
       <label for="" class="col-form-label">Who are your target audience?</label>
       <div class="">
-      <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+      <textarea name="audience" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
       </div>
     </div>
       <div class="form-group">
       <label for="" class="col-form-label">How will your audience interact with the website? <br><small>Read content, watch video, enroll in a course, post data etc.</small>
       </label>
       <div class="">
-      <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+      <textarea name="interact" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
       </div>
     </div>
   </div>
@@ -107,14 +107,14 @@
   <div class="form-group">
     <label for="" class="col-form-label">List your main competitors.</label>
     <div class="">
-    <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+    <textarea name="competitors" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
     </div>
     </div>
     <div class="form-group">
     <label for="" class="col-form-label">What makes your company/product different and unique?
     </label>
     <div class="">
-    <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+    <textarea name="uniqueness" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
   </div>
   </div>
   </div>
@@ -124,7 +124,7 @@
   <div class="form-group">
     <label for="" class="col-form-label">Do you have your website's content ready? <br><small>E.g. Text for each page, photos etc.</small></label>
   <div class="">
-    <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+    <textarea name="content" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
   </div>
   </div>
   </div>
@@ -134,21 +134,21 @@
   <div class="form-group">
     <label for="" class="col-form-label">Do you have brand guidelines? <br><small>Logo, colour scheme, fonts etc.</small></label>
 <div class="">
-    <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+    <textarea name="brand" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
     </div>
     </div>
     <div class="form-group">
     <label for="" class="col-form-label">What is your desired look and feel for the website? <br><small>Modern, minimal, colourful etc. </small>
     </label>
     <div class="">
-    <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+    <textarea name="look" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
     </div>
     </div>
     <div class="form-group">
     <label for="" class="col-form-label">List 5 websites you like and explain why?
     </label>
     <div class="">
-    <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+    <textarea name="preference" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
     </div>
     </div>
   </div>
@@ -158,21 +158,21 @@
   <div class="form-group">
     <label for="" class="col-form-label">List the pages that you require?<br><small>E.g. Home, About Us, Services, Blog, Contact Us</small></label>
   <div class="">
-    <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+    <textarea name="pages" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
     </div>
     </div>
     <div class="form-group">
     <label for="" class="col-form-label">What features do you want to include on the website? <br><small>E.g. Twitter feed, contact form, photo gallery </small>
     </label>
     <div class="">
-    <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+    <textarea name="features" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
     </div>
     </div>
     <div class="form-group">
     <label for="" class="col-form-label">Do you have a current domain name and hosting package?
     </label>
     <div class="">
-    <textarea name="message" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
+    <textarea name="domain" class="form-control z-depth-1" rows="7" placeholder=""></textarea>
   </div>
   </div>
   </div>
@@ -230,7 +230,7 @@
 </div>
 
 <div class="p-3 m-3 text-center">
-  <button type="submit" class="btn">Submit</button>
+  <button type="submit" class="btn" name="send_plan">Submit</button>
 </div>
 
 </form>

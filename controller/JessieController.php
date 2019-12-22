@@ -5,6 +5,7 @@ class JessieController extends Controller {
 
   public function __construct() {
     $this->modelContact = $this->model('modelContact');
+    $this->modelPlan = $this->model('modelPlan');
   }
 
   function index() {
@@ -23,7 +24,11 @@ class JessieController extends Controller {
     $this->loadView("content");
   }
   function project_plan() {
-    $this->loadView("project_plan");
+    if(isset($_POST["send_plan"])){
+      $get = $this->modelPlan->plan();
+    } else {
+      $this->loadView("project_plan");
+    }
   }
   function privacy() {
     $this->loadView("privacy");
@@ -39,13 +44,9 @@ class JessieController extends Controller {
   }
   function contact() {
     if(isset($_POST["send_mail"])){
-      
     $get = $this->modelContact->contact();
-   
-      //ako je meil uspesno poslan onda (true) vratiti na contakt formu obavestenje o tome, ako forma nije dobra vratiti na formi sa prikazom greske. 
     } else {
-    $this->loadView("contact");   //Ako ne postoji POST zahtev ucitaj ovo
+    $this->loadView("contact");  
     }
-  
   }
 }
